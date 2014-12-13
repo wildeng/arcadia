@@ -1,0 +1,3566 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-10 21:29:25 +0100
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2014-12-10 21:29:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2014-12-10 21:29:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-10 22:11:49 +0100
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2014-12-10 22:11:49 +0100
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2014-12-10 22:11:49 +0100
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/alainmauri/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-12-11 22:24:03 +0100
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:24:37 +0100
+Processing by RadioListsController#index as HTML
+Completed 500 Internal Server Error in 18.4ms
+
+ActiveRecord::StatementInvalid (Could not find table 'radio_lists'):
+  app/controllers/radio_lists_controller.rb:5:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRadioLists (20141211211726)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "radio_lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20141211211726')[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (2.3ms)
+Warning. Error encountered while saving cache /Users/alainmauri/Documents/my_projects/arcadia/tmp/cache/sass/8992916a461b0db42799173340acb8a31e464da5/radio_lists.css.scssc: can't dump anonymous class #<Class:0x007f9c762de898>
+
+Compiled radio_lists.css  (3ms)  (pid 943)
+Warning. Error encountered while saving cache /Users/alainmauri/Documents/my_projects/arcadia/tmp/cache/sass/8992916a461b0db42799173340acb8a31e464da5/scaffolds.css.scssc: can't dump anonymous class #<Class:0x007f9c762de898>
+
+Compiled scaffolds.css  (10ms)  (pid 943)
+Compiled application.css  (19ms)  (pid 943)
+Compiled jquery.js  (3ms)  (pid 943)
+Compiled jquery_ujs.js  (3ms)  (pid 943)
+Compiled radio_lists.js  (58ms)  (pid 943)
+Compiled application.js  (85ms)  (pid 943)
+Completed 200 OK in 154.2ms (Views: 141.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /radio_lists.css - 200 OK (1ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /radio_lists.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:25:28 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (12.2ms)
+  Rendered radio_lists/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 24.5ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:51 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/radio_lists" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Processing by RadioListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OKhSaWfsz3SyJpWqW0o8fkD21HeAmJK9TsiN6jhO0LE=", "commit"=>"Create Radio list"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "radio_lists" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Thu, 11 Dec 2014 21:32:55 UTC +00:00], ["updated_at", Thu, 11 Dec 2014 21:32:55 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/radio_lists/1
+Completed 302 Found in 10.7ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/radio_lists/1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered radio_lists/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8.8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:55 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.3ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4.9ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:32:57 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered radio_lists/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4.7ms (Views: 4.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:01 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3.9ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:03 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/radio_lists/1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Processing by RadioListsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OKhSaWfsz3SyJpWqW0o8fkD21HeAmJK9TsiN6jhO0LE=", "id"=>"1"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "radio_lists" WHERE "radio_lists"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/radio_lists
+Completed 302 Found in 3.6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7.4ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-11 22:33:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRadioLists (20141211211726)
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+Warning. Error encountered while saving cache /Users/alainmauri/Documents/my_projects/arcadia/tmp/cache/sass/8992916a461b0db42799173340acb8a31e464da5/welcome.css.scssc: can't dump anonymous class #<Class:0x007fae7fd8df58>
+
+Compiled welcome.css  (4ms)  (pid 3293)
+Compiled formtastic.css  (0ms)  (pid 3293)
+Compiled formtastic-bootstrap.css  (0ms)  (pid 3293)
+Compiled application.css  (18ms)  (pid 3293)
+Compiled welcome.js  (65ms)  (pid 3293)
+Compiled application.js  (73ms)  (pid 3293)
+Completed 200 OK in 152.2ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /welcome.css - 200 OK (2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /formtastic.css - 200 OK (3ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /formtastic-bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /welcome.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /radio_lists.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /radio_lists.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 15:50:06 +0100
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /radio_lists.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:49 +0100
+Served asset /radio_lists.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8.4ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 15:58:51 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6.9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:06:14 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.9ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /radio_lists.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /formtastic-bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /radio_lists.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:07:17 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 16:11:52 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 19.4ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"radio_lists"}):
+  app/views/welcome/home.html.erb:4:in `_app_views_welcome_home_html_erb__3710296434878410118_70193733039780'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8.6ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:10 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.3ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 43.9ms (Views: 20.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:12 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5.2ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:12:20 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.4ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13.2ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:35 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (14.7ms)
+  Rendered radio_lists/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 26.3ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:38 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.2ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13.3ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 16:13:43 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42.1ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /radio_lists.css - 200 OK (1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /formtastic.css - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /welcome.css - 200 OK (2ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /formtastic-bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /radio_lists.js - 200 OK (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /welcome.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:44 +0100
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.4ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30.9ms (Views: 6.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:15:46 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:15:50 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (44.9ms)
+  Rendered radio_lists/new.html.erb within layouts/application (53.4ms)
+Completed 500 Internal Server Error in 58.9ms
+
+ActionView::Template::Error (undefined method `name' for #<RadioList id: nil, created_at: nil, updated_at: nil>):
+    11:     </div>
+    12:   <% end %>
+    13:   <%= f.inputs do %>
+    14:       <%= f.input :name %>
+    15:       <%= f.input :description %>
+    16:       <%= f.input :radio_url %>
+    17:   <%end%>
+  app/views/radio_lists/_form.html.erb:14:in `block (2 levels) in _app_views_radio_lists__form_html_erb__3499677941950970908_70321267294960'
+  app/views/radio_lists/_form.html.erb:13:in `block in _app_views_radio_lists__form_html_erb__3499677941950970908_70321267294960'
+  app/views/radio_lists/_form.html.erb:1:in `_app_views_radio_lists__form_html_erb__3499677941950970908_70321267294960'
+  app/views/radio_lists/new.html.erb:3:in `_app_views_radio_lists_new_html_erb__3091492158285831749_70321267400540'
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRadioLists (20141211211727)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "radio_lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" text, "radio_url" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "radio_lists" already exists: CREATE TABLE "radio_lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" text, "radio_url" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:19:28 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (27.4ms)
+  Rendered radio_lists/new.html.erb within layouts/application (30.8ms)
+Completed 500 Internal Server Error in 50.4ms
+
+ActionView::Template::Error (undefined method `name' for #<RadioList id: nil, created_at: nil, updated_at: nil>):
+    11:     </div>
+    12:   <% end %>
+    13:   <%= f.inputs do %>
+    14:       <%= f.input :name %>
+    15:       <%= f.input :description %>
+    16:       <%= f.input :radio_url %>
+    17:   <%end%>
+  app/views/radio_lists/_form.html.erb:14:in `block (2 levels) in _app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/_form.html.erb:13:in `block in _app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/_form.html.erb:1:in `_app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/new.html.erb:3:in `_app_views_radio_lists_new_html_erb__727386115572939229_70107187696200'
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21.1ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /formtastic.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /radio_lists.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /radio_lists.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:19:34 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:19:35 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (4.5ms)
+  Rendered radio_lists/new.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 6.9ms
+
+ActionView::Template::Error (undefined method `name' for #<RadioList id: nil, created_at: nil, updated_at: nil>):
+    11:     </div>
+    12:   <% end %>
+    13:   <%= f.inputs do %>
+    14:       <%= f.input :name %>
+    15:       <%= f.input :description %>
+    16:       <%= f.input :radio_url %>
+    17:   <%end%>
+  app/views/radio_lists/_form.html.erb:14:in `block (2 levels) in _app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/_form.html.erb:13:in `block in _app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/_form.html.erb:1:in `_app_views_radio_lists__form_html_erb___2250104930294399720_70107169650100'
+  app/views/radio_lists/new.html.erb:3:in `_app_views_radio_lists_new_html_erb__727386115572939229_70107187696200'
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:20:26 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 7.6ms
+
+TypeError (exception class/object expected):
+  app/controllers/radio_lists_controller.rb:29:in `raise'
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:20:38 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 6.0ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:21:33 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 13.1ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:21:35 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 0.3ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:21:39 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 0.2ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:24:20 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 16.6ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:24:22 +0100
+Processing by RadioListsController#new as HTML
+Completed 500 Internal Server Error in 0.9ms
+
+RuntimeError (#<RadioList id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/radio_lists_controller.rb:29:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:24:36 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (25.7ms)
+  Rendered radio_lists/new.html.erb within layouts/application (27.7ms)
+Completed 500 Internal Server Error in 31.7ms
+
+ActionView::Template::Error (undefined method `name' for #<RadioList id: nil, created_at: nil, updated_at: nil>):
+    11:     </div>
+    12:   <% end %>
+    13:   <%= f.inputs do %>
+    14:       <%= f.input :name %>
+    15:       <%= f.input :description %>
+    16:       <%= f.input :radio_url %>
+    17:   <%end%>
+  app/views/radio_lists/_form.html.erb:14:in `block (2 levels) in _app_views_radio_lists__form_html_erb__1562332247286589058_70153865290960'
+  app/views/radio_lists/_form.html.erb:13:in `block in _app_views_radio_lists__form_html_erb__1562332247286589058_70153865290960'
+  app/views/radio_lists/_form.html.erb:1:in `_app_views_radio_lists__form_html_erb__1562332247286589058_70153865290960'
+  app/views/radio_lists/new.html.erb:3:in `_app_views_radio_lists_new_html_erb__1516602468669064979_70153865406220'
+  app/controllers/radio_lists_controller.rb:30:in `new'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRadioLists (20141211211726)
+Migrating to AddColumnsToRadioLists (20141213202511)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "radio_lists" ADD "name" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "radio_lists" ADD "description" text[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "radio_lists" ADD "radio_url" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20141213202511')[0m
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (68.0ms)
+  Rendered radio_lists/new.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 115.5ms (Views: 95.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /radio_lists.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /welcome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /formtastic.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /radio_lists.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:27:08 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/radio_lists" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Processing by RadioListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eWXiHJscbAUxx5qSZRnvh+bcpASY6GHozL/3cFHgNvI=", "radio_list"=>{"name"=>"Radio deejay", "description"=>"Url per lo stream di radio deejay", "radio_url"=>"http://mp3.kataweb.it:8000/RadioDeejay"}, "commit"=>"Create Radio list"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "radio_lists" ("created_at", "description", "name", "radio_url", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Sat, 13 Dec 2014 20:28:17 UTC +00:00], ["description", "Url per lo stream di radio deejay"], ["name", "Radio deejay"], ["radio_url", "http://mp3.kataweb.it:8000/RadioDeejay"], ["updated_at", Sat, 13 Dec 2014 20:28:17 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/radio_lists/2
+Completed 302 Found in 10.6ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/radio_lists/2" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRadioList Load (0.6ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered radio_lists/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15.0ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:28:21 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10.3ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:22 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (17.2ms)
+  Rendered radio_lists/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 27.6ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:28:29 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/radio_lists" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Processing by RadioListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eWXiHJscbAUxx5qSZRnvh+bcpASY6GHozL/3cFHgNvI=", "radio_list"=>{"name"=>"Radio 2", "description"=>"Stream per Radio 2 ", "radio_url"=>"rtsp://live.media.rai.it/broadcast/radiodue.rm"}, "commit"=>"Create Radio list"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "radio_lists" ("created_at", "description", "name", "radio_url", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sat, 13 Dec 2014 20:29:09 UTC +00:00], ["description", "Stream per Radio 2 "], ["name", "Radio 2"], ["radio_url", "rtsp://live.media.rai.it/broadcast/radiodue.rm"], ["updated_at", Sat, 13 Dec 2014 20:29:09 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/radio_lists/3
+Completed 302 Found in 2.9ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/radio_lists/3" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered radio_lists/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5.4ms (Views: 4.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:29:09 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/3" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered radio_lists/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14.6ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:23 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:24 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7.3ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:40:29 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:46:01 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 15.6ms
+
+ActionView::Template::Error (undefined method `radio_list_play_stream_path' for #<#<Class:0x007ff8ab4cf0f8>:0x007ff8ab4cdf00>):
+    12:     <td><%= radio_list.name.to_s%></td>
+    13:     <td><%= radio_list.description.to_s%></td>
+    14:     <td><%= radio_list.radio_url.to_s%></td>
+    15:     <td><%= link_to 'Play', radio_list_play_stream_path(radio_list) %></td>
+    16:     <td><%= link_to 'Show', radio_list %></td>
+    17:     <td><%= link_to 'Edit', edit_radio_list_path(radio_list) %></td>
+    18:     <td><%= link_to 'Destroy', radio_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/radio_lists/index.html.erb:15:in `block in _app_views_radio_lists_index_html_erb__231276823666116583_70353001277140'
+  app/views/radio_lists/index.html.erb:10:in `each'
+  app/views/radio_lists/index.html.erb:10:in `_app_views_radio_lists_index_html_erb__231276823666116583_70353001277140'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7.9ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 21:46:46 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/radio_lists/play_stream.2" for 127.0.0.1 at 2014-12-13 22:09:02 +0100
+Processing by RadioListsController#play_stream as 
+Completed 500 Internal Server Error in 0.4ms
+
+RuntimeError ({"controller"=>"radio_lists", "action"=>"play_stream", "format"=>"2"}):
+  app/controllers/radio_lists_controller.rb:86:in `play_stream'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:10:12 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 43.1ms
+
+ActionView::Template::Error (undefined method `radio_lists_play_stream_path' for #<#<Class:0x007f833af62948>:0x007f833af5a270>):
+    12:     <td><%= radio_list.name.to_s%></td>
+    13:     <td><%= radio_list.description.to_s%></td>
+    14:     <td><%= radio_list.radio_url.to_s%></td>
+    15:     <td><%= link_to 'Play', radio_lists_play_stream_path(radio_list) %></td>
+    16:     <td><%= link_to 'Show', radio_list %></td>
+    17:     <td><%= link_to 'Edit', edit_radio_list_path(radio_list) %></td>
+    18:     <td><%= link_to 'Destroy', radio_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/views/radio_lists/index.html.erb:15:in `block in _app_views_radio_lists_index_html_erb__788851036899287889_70100803293080'
+  app/views/radio_lists/index.html.erb:10:in `each'
+  app/views/radio_lists/index.html.erb:10:in `_app_views_radio_lists_index_html_erb__788851036899287889_70100803293080'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33.4ms (Views: 32.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /radio_lists.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /formtastic.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /radio_lists.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:11:30 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:11:33 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 0.4ms
+
+RuntimeError ({"controller"=>"radio_lists", "action"=>"play_stream", "id"=>"2"}):
+  app/controllers/radio_lists_controller.rb:86:in `play_stream'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48.7ms (Views: 40.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:12:55 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:12:57 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRadioList Load (0.2ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 18.6ms
+
+ActionView::Template::Error (undefined local variable or method `radio' for #<#<Class:0x007f833a95a2a8>:0x007f833f94ee58>):
+    1: <audio controls src="<%= radio.radio_url.to_s %>"></audio>
+  app/views/radio_lists/play_stream.html.erb:1:in `_app_views_radio_lists_play_stream_html_erb__3879279254597679006_70100842081660'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6.1ms (Views: 5.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:13:13 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/3" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.9ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:19 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/3" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.8ms (Views: 4.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:27 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/3" for 127.0.0.1 at 2014-12-13 22:14:30 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.9ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:30 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:30 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:30 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:14:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9.3ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:45 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:22:46 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 14.4ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:46 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:22:47 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (56.2ms)
+  Rendered radio_lists/new.html.erb within layouts/application (63.4ms)
+Completed 200 OK in 76.8ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/radio_lists" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Processing by RadioListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eWXiHJscbAUxx5qSZRnvh+bcpASY6GHozL/3cFHgNvI=", "radio_list"=>{"name"=>"RTL 102.5", "description"=>"Stream rtl", "radio_url"=>" http://shoutcast.rtl.it:3010/stream/1/ "}, "commit"=>"Create Radio list"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (8.4ms)[0m  [1mINSERT INTO "radio_lists" ("created_at", "description", "name", "radio_url", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sat, 13 Dec 2014 21:23:39 UTC +00:00], ["description", "Stream rtl"], ["name", "RTL 102.5"], ["radio_url", " http://shoutcast.rtl.it:3010/stream/1/ "], ["updated_at", Sat, 13 Dec 2014 21:23:39 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/radio_lists/4
+Completed 302 Found in 13.8ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/radio_lists/4" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered radio_lists/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 13.1ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:39 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6.8ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:41 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/4" for 127.0.0.1 at 2014-12-13 22:23:43 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9.5ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:23:44 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/4" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5.4ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:30:15 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/4/edit" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Processing by RadioListsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered radio_lists/_form.html.erb (22.5ms)
+  Rendered radio_lists/edit.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 33.5ms (Views: 32.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:26 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/radio_lists/4" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Processing by RadioListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eWXiHJscbAUxx5qSZRnvh+bcpASY6GHozL/3cFHgNvI=", "radio_list"=>{"name"=>"RTL 102.5", "description"=>"Stream rtl", "radio_url"=>"http://shoutcast.rtl.it:3010/stream/1/"}, "commit"=>"Update Radio list", "id"=>"4"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "radio_lists" SET "radio_url" = 'http://shoutcast.rtl.it:3010/stream/1/', "updated_at" = '2014-12-13 21:31:30.698432' WHERE "radio_lists"."id" = 4
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/radio_lists/4
+Completed 302 Found in 4.8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/radio_lists/4" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mRadioList Load (0.4ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered radio_lists/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8.3ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12.9ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7.9ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /formtastic-bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /radio_lists.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /radio_lists.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:31:46 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/radio_lists/play_stream/4" for 127.0.0.1 at 2014-12-13 22:31:48 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.0ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:32:01 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.8ms (Views: 4.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9.8ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/2" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5.3ms (Views: 4.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:32:48 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (18.8ms)
+  Rendered radio_lists/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 28.1ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:33:57 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/radio_lists" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Processing by RadioListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eWXiHJscbAUxx5qSZRnvh+bcpASY6GHozL/3cFHgNvI=", "radio_list"=>{"name"=>"RDS", "description"=>"rds stream", "radio_url"=>"http://www.rds.it:8000/stream"}, "commit"=>"Create Radio list"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "radio_lists" ("created_at", "description", "name", "radio_url", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Sat, 13 Dec 2014 21:34:14 UTC +00:00], ["description", "rds stream"], ["name", "RDS"], ["radio_url", "http://www.rds.it:8000/stream"], ["updated_at", Sat, 13 Dec 2014 21:34:14 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/radio_lists/5
+Completed 302 Found in 3.5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/radio_lists/5" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Processing by RadioListsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered radio_lists/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11.0ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:14 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8.9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:16 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/play_stream/5" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Processing by RadioListsController#play_stream as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" WHERE "radio_lists"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered radio_lists/play_stream.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.3ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:34:18 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists/new" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Processing by RadioListsController#new as HTML
+  Rendered radio_lists/_form.html.erb (7.8ms)
+  Rendered radio_lists/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 14.1ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:35:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5.5ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /radio_lists.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /formtastic-bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /radio_lists.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:27 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10.6ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:42:29 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7.3ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:01 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.2ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10.1ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /radio_lists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /radio_lists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:46:05 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:46:40 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 50.9ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('radio_lists.title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513456420'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:48:13 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 12.3ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('radio_lists.title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513456420'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:50:08 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 10.7ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('radio_lists.title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513456420'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:50:10 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 7.0ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('radio_lists.title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513456420'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:50:27 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 38.4ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('radio_lists.title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513456420'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:51:11 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.1ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 7.1ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513127980'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:51:13 +0100
+Processing by RadioListsController#index as HTML
+  [1m[36mRadioList Load (0.1ms)[0m  [1mSELECT "radio_lists".* FROM "radio_lists" [0m
+  Rendered radio_lists/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 8.2ms
+
+ActionView::Template::Error (can not load translations from /Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml: #<Psych::SyntaxError: (/Users/alainmauri/Documents/my_projects/arcadia/config/locales/it.yml): found character that cannot start any token while scanning for the next token at line 3 column 3>):
+    1: <h1><%= t('title') %></h1>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/radio_lists/index.html.erb:1:in `_app_views_radio_lists_index_html_erb___460378690725242493_70129513127980'
+  app/controllers/radio_lists_controller.rb:7:in `index'
+
+
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alainmauri/.rvm/gems/ruby-2.1.2/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/radio_lists" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Processing by RadioListsController#index as HTML
+  [1m[35mRadioList Load (0.2ms)[0m  SELECT "radio_lists".* FROM "radio_lists" 
+  Rendered radio_lists/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 51.6ms (Views: 40.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/radio_lists.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /radio_lists.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /formtastic.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /welcome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/formtastic-bootstrap.css?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /formtastic-bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/radio_lists.js?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /radio_lists.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-13 22:52:19 +0100
+Served asset /application.js - 304 Not Modified (4ms)

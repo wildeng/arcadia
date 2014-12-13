@@ -1,0 +1,21 @@
+<%= semantic_form_for(@radio_list) do |f| %>
+  <% if @radio_list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@radio_list.errors.count, "error") %> prohibited this radio_list from being saved:</h2>
+
+      <ul>
+      <% @radio_list.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%= f.inputs do %>
+      <%= f.input :name %>
+      <%= f.input :description %>
+      <%= f.input :radio_url %>
+  <%end%>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
