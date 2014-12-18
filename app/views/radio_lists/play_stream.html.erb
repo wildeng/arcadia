@@ -1,1 +1,6 @@
-<audio controls src="<%= @radio.radio_url.to_s %>"></audio>
+<!--<audio controls src="<%= @radio.radio_url.to_s %>"></audio>-->
+<h1><%= @message.to_s %></h1>
+<br />
+<%= link_to 'Stop', '/radio_lists/stop_stream/' + @radio.id.to_i.to_s, :remote => true %>
+<input type="button" value="Vol. +" onclick="volumeUp(10);" />
+<input type="button" value="Vol. -" onclick="volumeUp(-10);" />

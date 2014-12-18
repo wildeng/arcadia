@@ -1,6 +1,8 @@
 Arcadia::Application.routes.draw do
 
   match 'radio_lists/play_stream/:id' => 'radio_lists#play_stream', :as => 'play_stream'
+  match 'radio_lists/stop_stream/:id' => 'radio_lists#stop_stream', :as => 'stop_stream'
+  match 'radio_lists/volume_change' => 'radio_lists#volume_change'
   resources :radio_lists
 
 
