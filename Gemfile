@@ -11,7 +11,7 @@ gem "bootstrap-datepicker-rails"
 gem 'formtastic-bootstrap'
 gem "ransack"
 gem "ruby-mpd"
-gem 'rspec'
+gem 'rspec-rails'
 gem 'capybara'
 
 gem 'sqlite3'
