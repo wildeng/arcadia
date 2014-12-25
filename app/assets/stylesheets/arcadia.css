@@ -1,0 +1,20 @@
+.header_play_purple{
+    background-color: #583C83;
+    color: #ffffff;
+}
+
+.header_play_blue{
+    background-color: #05397E;
+    color: #ffffff;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #05397E;
+    color: #ffffff;
+}
+

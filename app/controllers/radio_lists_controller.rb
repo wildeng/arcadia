@@ -1,7 +1,8 @@
 class RadioListsController < ApplicationController
   # GET /radio_lists
   # GET /radio_lists.json
-
+ before_filter :start_connection
+ after_filter  :stop_connection
 
   def index
     @radio_lists = RadioList.all
@@ -87,23 +88,16 @@ class RadioListsController < ApplicationController
   def play_stream
     if params[:id]
       @radio = RadioList.find(params[:id])
-      mpd = MPD.new '192.168.0.2', 6600
-      mpd.connect
-      mpd.add(@radio.radio_url)
-      mpd.play
+      @mpd.add(@radio.radio_url)
+      @mpd.play
       @message = 'Playing ' + @radio.name
-      mpd.disconnect
     end
   end
 
   def stop_stream
     if params[:id]
       @radio = RadioList.find(params[:id])
-      mpd = MPD.new '192.168.0.2', 6600
-      mpd.connect
-      mpd.stop
-      mpd.clear
-      mpd.disconnect
+      @mpd.disconnect
       @message = 'Stopped  ' + @radio.name
       respond_to do |format|
         format.html
@@ -112,14 +106,11 @@ class RadioListsController < ApplicationController
   end
 
   def volume_change
-    mpd = MPD.new '192.168.0.2', 6600
-    mpd.connect
     if params
       if params[:volValue]
         #TODO implement volume changes
       end
     end
-    mpd.disconnect
     @message = "Volume changed"
     respond_to do |format|
       format.json  { render json: {'success' => true, 'message' => @message.to_s }  }
