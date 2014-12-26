@@ -14,6 +14,7 @@
       <%= f.input :name, :label => I18n.t('radio_name') %>
       <%= f.input :description, :label => I18n.t('radio_full_type') %>
       <%= f.input :radio_url, :label => I18n.t('radio_url') %>
+      <%= f.input :aasm_state %>
   <%end%>
     <%= f.actions do %>
       <%= f.action :submit, :button_html => {:value => I18n.t('radio_save')}  %>

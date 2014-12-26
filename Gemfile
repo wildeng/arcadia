@@ -11,6 +11,9 @@ gem "bootstrap-datepicker-rails"
 gem 'formtastic-bootstrap'
 gem "ransack"
 gem "ruby-mpd"
+# state machine
+gem 'aasm'
+
 gem 'rspec-rails'
 gem 'capybara'
 

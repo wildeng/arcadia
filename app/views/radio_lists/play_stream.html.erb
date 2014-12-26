@@ -1,6 +1,19 @@
-<!--<audio controls src="<%= @radio.radio_url.to_s %>"></audio>-->
 <h1><%= @message.to_s %></h1>
+
 <br />
-<%= link_to 'Stop', '/radio_lists/stop_stream/' + @radio.id.to_i.to_s, :remote => true %>
-<input type="button" value="Vol. +" onclick="volumeUp(10);" />
-<input type="button" value="Vol. -" onclick="volumeUp(-10);" />
+<div id="controls">
+    <span id="stop_stream">
+      <%= link_to image_tag("file_stop.png", height: 64, width: 64, :border=>0,:alt => 'Stop'), '/radio_lists/stop_stream/' + @radio.id.to_i.to_s, :remote => true %>
+    </span>
+    <span id="play_again">
+      <%= link_to image_tag("play_button.png", height: 64, width: 64, :border=>0,:alt => 'Play again'), '/radio_lists/play_again/', :remote => true %>
+    </span>
+</div>
+<div>
+  <h3 id="volumeVal"><%= I18n.t('volume_title', :vol_val => @volume.to_s)%></h3>
+  <input type="button" value="+" onclick="volumeUp(10);" />
+  <input type="button" value="-" onclick="volumeUp(-10);" />
+</div>
+<div>
+  <%= link_to image_tag("back.png", height: 24, width: 24, :border=>0,:alt => 'Back'), radio_lists_path %>
+</div>

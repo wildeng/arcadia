@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    aasm (4.0.3)
     actionmailer (3.2.19)
       actionpack (= 3.2.19)
       mail (~> 2.5.4)
@@ -159,6 +160,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aasm
   bootstrap-datepicker-rails
   capybara
   coffee-rails (~> 3.2.1)

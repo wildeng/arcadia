@@ -9,7 +9,7 @@ function volumeUp(volValue){
         url: "/radio_lists/volume_change",
         data: {volValue:volValue},
         success: function(data){
-            console.log(data.message);
+            $('#volumeVal').html(data.volume);
         }
     });
 }

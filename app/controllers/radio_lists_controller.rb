@@ -87,9 +87,27 @@ class RadioListsController < ApplicationController
 
   def play_stream
     if params[:id]
-      @radio = RadioList.find(params[:id])
-      @mpd.add(@radio.radio_url)
-      @mpd.play
+      #old stream must be stopped first
+      if session[:current_stream_id] == params[:id].to_i
+        @radio = RadioList.find(params[:id])
+        if @radio.sleeping?
+          @radio.activate_stream
+          @mpd.play
+        end
+      else
+        if session[:current_stream_id]
+          old_radio = RadioList.find(session[:current_stream_id])
+          old_radio.clear_stream
+        end
+        @mpd.stop
+        @mpd.clear
+        @radio = RadioList.find(params[:id])
+        session['current_stream_id'] = @radio.id
+        @radio.activate_stream
+        @mpd.add(@radio.radio_url)
+        @mpd.play
+      end
+      @volume = @mpd.volume
       @message = 'Playing ' + @radio.name
     end
   end
@@ -97,24 +115,41 @@ class RadioListsController < ApplicationController
   def stop_stream
     if params[:id]
       @radio = RadioList.find(params[:id])
+      @radio.stop_stream
+      @mpd.stop
       @mpd.disconnect
       @message = 'Stopped  ' + @radio.name
       respond_to do |format|
         format.html
+        format.json
       end
     end
   end
 
+  def play_again
+    if session[:current_stream_id]
+      @radio = RadioList.find(session[:current_stream_id])
+      @radio.activate_stream
+    end
+    @mpd.play
+    @mpd.disconnect
+    respond_to do |format|
+      format.json
+    end
+  end
+
   def volume_change
+    @volume = @mpd.volume
+
     if params
       if params[:volValue]
-        #TODO implement volume changes
+        @volume = @volume +  params[:volValue].to_i
+        @mpd.volume = @volume
       end
     end
     @message = "Volume changed"
     respond_to do |format|
-      format.json  { render json: {'success' => true, 'message' => @message.to_s }  }
-
+      format.json  { render json: {'success' => true, 'message' => @message.to_s, 'volume' => I18n.t('volume_title',:vol_val => @volume.to_s) }  }
     end
   end
   
