@@ -1,7 +1,17 @@
-<h1><%= t('title') %></h1>
+<div class="span12">
+<h1>
+  <%= t('title') %>
+  <small><%= link_to image_tag("file_add.png", height: 24, width: 24, :border=>0,:alt => 'New'), new_radio_list_path %></small>
+</h1>
 
-<table>
+
+
+<table class="table">
   <tr>
+    <th><%= t('radio_name') %></th>
+    <th><%= t('radio_type') %></th>
+    <!--<th>Url</th> -->
+    <th></th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,15 +21,14 @@
   <tr>
     <td><%= radio_list.name.to_s%></td>
     <td><%= radio_list.description.to_s%></td>
-    <td><%= radio_list.radio_url.to_s%></td>
-    <td><%= link_to 'Play', 'radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
-    <td><%= link_to 'Show', radio_list %></td>
-    <td><%= link_to 'Edit', edit_radio_list_path(radio_list) %></td>
-    <td><%= link_to 'Destroy', radio_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <!--<td><%= radio_list.radio_url.to_s%></td>-->
+    <td><%= link_to image_tag("play_button.png", height: 24, width: 24, :border=>0,:alt => 'Play'), 'radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
+    <td><%= link_to image_tag("file_show.png", height: 24, width: 24, :border=>0,:alt => 'Show'), radio_list %></td>
+    <td><%= link_to image_tag("file_edit.png", height: 24, width: 24, :border=>0,:alt => 'Edit'), edit_radio_list_path(radio_list) %></td>
+    <td><%= link_to image_tag("cross.png", height: 24, width: 24, :border=>0,:alt => 'Destroy'), radio_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New Radio list', new_radio_list_path %>
+</div>

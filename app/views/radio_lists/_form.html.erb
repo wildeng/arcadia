@@ -11,11 +11,12 @@
     </div>
   <% end %>
   <%= f.inputs do %>
-      <%= f.input :name %>
-      <%= f.input :description %>
-      <%= f.input :radio_url %>
+      <%= f.input :name, :label => I18n.t('radio_name') %>
+      <%= f.input :description, :label => I18n.t('radio_full_type') %>
+      <%= f.input :radio_url, :label => I18n.t('radio_url') %>
   <%end%>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <%= f.actions do %>
+      <%= f.action :submit, :button_html => {:value => I18n.t('radio_save')}  %>
+    <%end%>
+
 <% end %>

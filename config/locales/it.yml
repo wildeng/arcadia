@@ -1,2 +1,9 @@
 it:
-   title:		"Lista delle radio"
+   title:		    "Lista delle radio"
+   radio_name:      "Nome"
+   radio_type:      "Desc"
+   radio_full_type: "Descrizione"
+   radio_url:       "Indirizzo dello stream"
+   radio_save:      "Salva"
+   edit_radio:      "Modifica "
+   new_radio:       "Inserisci i dati"
