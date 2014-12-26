@@ -1,5 +1,11 @@
 == Welcome to ARCADIA
 
-Arcadia is a web application aiming to create a music player for RaspberryPi. It should give the possibility 
-to add and play streams, play mp3 files etc. Actually is just a draft version, because I'm trying to understand 
-which is the best solution to achieve my goal.
+Arcadia is a web application aiming to create a music player for RaspberryPi, controlled by a web interface. Actually is an alpha version; I'm adding some style and I've decided to use 
+ruby-mpd, a ruby gem wrapping the mpd daemon protocol.
+
+The web app is actually working with mp3 streams only and doesn't play mp3 files. My first goal will be having something
+usable in the real world to let users add and play their favourite online radio streams, using the RaspberryPi connected
+to an Hi-Fi set or to something else.
+
+More to come.
+
