@@ -3,9 +3,18 @@
 Arcadia is a web application aiming to create a music player for RaspberryPi, controlled by a web interface. Actually is an alpha version; I'm adding some style and I've decided to use 
 ruby-mpd, a ruby gem wrapping the mpd daemon protocol.
 
-The web app is actually working with mp3 streams only and doesn't play mp3 files. My first goal will be having something
+The web app is actually working with mp3 (without m3u extension),shoutcast and BBC streams only and doesn't play mp3 files. My first goal will be having something
 usable in the real world to let users add and play their favourite online radio streams, using the RaspberryPi connected
 to an Hi-Fi set or to something else.
+
+Since the application is completely asincronous, I use a state machine to know which was the last played stream:
+
+     1- Stopped, well no need to explain this state - It's the default one.
+     2- Sleeping, unless you don't change the radio you're listening to, this is the state used when you stop 
+        listening to the radio. It doesn't clear the daemon status and lets you play it again.
+     3- Active, this is the currently played stream
+
+Up to now, the application could have bugs, but it's usable.
 
 More to come.
 
