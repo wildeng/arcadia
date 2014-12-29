@@ -2,7 +2,7 @@ class RadioList < ActiveRecord::Base
   attr_accessible :name, :description, :radio_url
   include AASM
 
-  attr_accessible :name,:description, :radio_url, :aasm_state
+  attr_accessible :name,:description, :radio_url
 
   # state machine
   aasm do
