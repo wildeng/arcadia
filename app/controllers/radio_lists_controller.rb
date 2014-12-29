@@ -7,8 +7,12 @@ class RadioListsController < ApplicationController
   def index
     @radio_lists = RadioList.all
     active_radio = RadioList.find_active_radio.first
-    if session[:current_stream_id] != active_radio.id
-      session[:current_stream_id] = active_radio.id
+    if active_radio
+      if session[:current_stream_id] != active_radio.id
+        session[:current_stream_id] = active_radio.id
+      end
+    else
+      session[:current_stream_id] = nil
     end
     respond_to do |format|
       format.html # index.html.erb
