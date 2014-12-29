@@ -6,7 +6,10 @@ class RadioListsController < ApplicationController
 
   def index
     @radio_lists = RadioList.all
-
+    active_radio = RadioList.find_active_radio.first
+    if session[:current_stream_id] != active_radio.id
+      session[:current_stream_id] = active_radio.id
+    end
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @radio_lists }

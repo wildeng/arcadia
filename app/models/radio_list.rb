@@ -26,6 +26,8 @@ class RadioList < ActiveRecord::Base
     end
   end
 
+  RadioList.scope :find_active_radio, :conditions =>  ['aasm_state = "active"']
+
   def check_link
   	return true
   end
