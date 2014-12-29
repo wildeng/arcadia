@@ -20,6 +20,7 @@ class RadioList < ActiveRecord::Base
     event :activate do
       transitions :from => :sleeping, :to => :active
       transitions :from => :stopped, :to => :active
+      transitions :from => :active, :to => :active
     end
   end
 
