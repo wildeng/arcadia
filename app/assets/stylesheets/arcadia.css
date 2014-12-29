@@ -9,7 +9,7 @@
 }
 
 .footer{
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -18,3 +18,12 @@
     color: #ffffff;
 }
 
+.fluid_image{
+    max-width: 20%;
+    height: auto;
+}
+
+.main_image{
+    max-width: 100%;
+    height: auto;
+}
