@@ -127,7 +127,6 @@ class RadioListsController < ApplicationController
       @mpd.disconnect
       @message = 'Stopped  ' + @radio.name
       respond_to do |format|
-        format.html
         format.json
       end
     end
@@ -159,5 +158,5 @@ class RadioListsController < ApplicationController
       format.json  { render json: {'success' => true, 'message' => @message.to_s, 'volume' => I18n.t('volume_title',:vol_val => @volume.to_s) }  }
     end
   end
-  
+
 end

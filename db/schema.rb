@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(:version => 20141226212658) do
 
   create_table "radio_lists", :force => true do |t|
-    t.datetime "created_at",                         :null => false
-    t.datetime "updated_at",                         :null => false
     t.string   "name"
     t.text     "description"
     t.string   "radio_url"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
     t.string   "aasm_state",  :default => "stopped"
   end
 
