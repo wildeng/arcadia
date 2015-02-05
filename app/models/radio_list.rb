@@ -20,7 +20,7 @@ class RadioList < ActiveRecord::Base
       transitions :from => :sleeping, :to => :stopped
       # needed to prevent unusual user modes....
       transitions :from => :stopped, :to => :stopped
-      transitions :from => :sleeping, :to => :stopped
+      transitions :from => :active, :to => :stopped
     end
 
     event :activate do
