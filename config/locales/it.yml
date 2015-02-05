@@ -14,3 +14,5 @@ it:
    delete_title:    "Cancella questa radio"
    view_title:      "Vedi i dati inseriti"
    play_sleeping:   "Vai alla radio corrente"
+   clear_all:       "Reset dello stato dei canali"
+   clear_message:   "Lo stato dei canali è stato resettato"

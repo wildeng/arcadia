@@ -2,10 +2,11 @@
 development:
   remote_server: '192.168.0.2'
   remote_port: 6600
+  
 test:
   remote_server: '192.168.0.2'
   remote_port: 6600
 
-produciton:
+production:
   remote_server: '192.168.0.2'
   remote_port: 6600

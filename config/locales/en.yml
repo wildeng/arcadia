@@ -10,3 +10,4 @@ en:
   radio_save:      "Save"
   edit_radio:      "Edit "
   new_radio:       "Complete all fields"
+  clear_all:       "Reset all channel states"

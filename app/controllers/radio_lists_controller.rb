@@ -92,6 +92,20 @@ class RadioListsController < ApplicationController
     end
   end
 
+  def reset_all
+    radio = RadioList.all
+    radio.each do |r|
+      if r.aasm_state == 'active'
+        @mpd.stop
+        @mpd.clear
+      end
+      r.clear_stream
+    end
+    respond_to do |format|
+      format.html  { redirect_to radio_lists_path, notice: I18n.t('clear_message') }
+    end
+  end
+
   def play_stream
     if params[:id]
       #old stream must be stopped first
@@ -127,7 +141,7 @@ class RadioListsController < ApplicationController
       @mpd.disconnect
       @message = 'Stopped  ' + @radio.name
       respond_to do |format|
-        format.json
+        format.json { render json: {'success' => true, 'message' => @message.to_s }  }
       end
     end
   end
