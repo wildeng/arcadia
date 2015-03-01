@@ -19,8 +19,11 @@
 }
 
 .fluid_image{
-    max-width: 20%;
     height: auto;
+}
+
+.header_image {
+	max-width: 60%;
 }
 
 .main_image{

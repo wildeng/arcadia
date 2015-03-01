@@ -16,3 +16,4 @@ it:
    play_sleeping:   "Vai alla radio corrente"
    clear_all:       "Reset dello stato dei canali"
    clear_message:   "Lo stato dei canali è stato resettato"
+   server_timeout:  "Il server al momento non risponde, riprovare più tardi"

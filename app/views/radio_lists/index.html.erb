@@ -2,14 +2,14 @@
 <h1>
   <%= t('title') %>
 </h1>
-<div id="commands">
-  <small><%= link_to image_tag("file_add.png", :class => 'fluid_image', :border=>0,:alt => 'New'), new_radio_list_path %></small>
-  <small><%= link_to image_tag("cross.png", :class => 'fluid_image', :border=>0,:alt => 'Clear all', :title => I18n.t('clear_all')), '/radio_lists/reset_all', data: { confirm: 'Are you sure?' } %> </small>
-  <%if session[:current_stream_id]%>
-    <small>  <%= link_to image_tag("play_button.png", :class => 'fluid_image', :border=>0,:alt => 'Play', :title => I18n.t('play_sleeping')), '/radio_lists/play_stream/'+ session[:current_stream_id].to_s %></small>
-  <%end%>
-</div>
 
+ <% if flash[:error] %>
+ 	<br />
+    <div class="alert alert-error">
+	    <a href="#" class="close" data-dismiss="alert">&times;</a>
+		<%= flash[:error] %>
+	</div>
+  <% end %>
 <div class="table-responsive">
 <table class="table">
   <thead>
@@ -25,7 +25,7 @@
   <tbody>
 <% @radio_lists.each do |radio_list| %>
   <tr>
-    <td><%= radio_list.name.to_s%></td>
+    <td><div><%= radio_list.name.to_s%></div></td>
     <!--<td><%= radio_list.description.to_s%></td>-->
     <!--<td><%= radio_list.radio_url.to_s%></td>-->
     <td><%= link_to image_tag("play_button.png", :class => 'fluid_image', :border=>0,:alt => 'Play', :title => I18n.t('play_title')), '/radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
@@ -37,4 +37,11 @@
 </table>
 </div>
 <br />
+<div id="commands">
+  <small><%= link_to image_tag("file_add.png", :class => 'header_image', :border=>0,:alt => 'New'), new_radio_list_path %></small>
+  <small><%= link_to image_tag("cross.png", :class => 'header_image', :border=>0,:alt => 'Clear all', :title => I18n.t('clear_all')), '/radio_lists/reset_all', data: { confirm: 'Are you sure?' } %> </small>
+  <%if session[:current_stream_id]%>
+    <small>  <%= link_to image_tag("play_button.png", :class => 'fluid_image', :border=>0,:alt => 'Play', :title => I18n.t('play_sleeping')), '/radio_lists/play_stream/'+ session[:current_stream_id].to_s %></small>
+  <%end%>
+</div>
 </div>
