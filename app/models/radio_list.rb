@@ -1,8 +1,7 @@
 class RadioList < ActiveRecord::Base
-  attr_accessible :name, :description, :radio_url
   include AASM
 
-  attr_accessible :name,:description, :radio_url
+  attr_accessible :name,:description, :radio_url, :aasm_state
 
   # state machine
   aasm do
@@ -31,6 +30,7 @@ class RadioList < ActiveRecord::Base
   end
 
   RadioList.scope :find_active_radio, :conditions =>  ['aasm_state = "active" OR aasm_state = "sleeping"']
+  RadioList.scope :ordered_by_name, :order => ('name asc')
 
   def check_link
   	return true

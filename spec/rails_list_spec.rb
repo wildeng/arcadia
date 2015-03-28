@@ -9,8 +9,3 @@ describe RadioList do
 	end
 end
 
-describe "#check_link" do
-	it "checks a link to test if it works" do
-		@radio.check_link.should be true
-	end
-end
