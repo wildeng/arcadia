@@ -14,6 +14,10 @@ Since the application is completely asincronous, I use a state machine to know w
         listening to the radio. It doesn't clear the daemon status and lets you play it again.
      3- Active, this is the currently played stream
 
+The stylesheet used is from www.bootstrapzero.com and reminds of Holo theme => http://bootstrapzero.com/bootstrap-template/holo
+
+Some of the images are not optimized yet, I will try to improve them as soon as possible.
+
 Up to now, the application could have bugs, but it's usable.
 
 More to come.
