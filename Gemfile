@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.19'
-
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.2.4'
 gem 'thin'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -18,15 +18,15 @@ gem 'aasm'
 
 
 gem 'sqlite3'
-
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  # Use SCSS for stylesheets
+  gem 'sass-rails', '~> 5.0'
+  # Use Uglifier as compressor for JavaScript assets
+  gem 'uglifier', '>= 1.3.0'
+  # Use CoffeeScript for .coffee assets and views
+  gem 'coffee-rails', '~> 4.1.0'
 end
 
 gem 'jquery-rails'

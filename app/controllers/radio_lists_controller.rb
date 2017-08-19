@@ -24,7 +24,7 @@ class RadioListsController < ApplicationController
   # GET /radio_lists/1
   # GET /radio_lists/1.json
   def show
-    @radio_list = RadioList.find(params[:id])
+    @radio_list = RadioList.find(radio_params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -45,13 +45,13 @@ class RadioListsController < ApplicationController
 
   # GET /radio_lists/1/edit
   def edit
-    @radio_list = RadioList.find(params[:id])
+    @radio_list = RadioList.find(radio_params[:id])
   end
 
   # POST /radio_lists
   # POST /radio_lists.json
   def create
-    @radio_list = RadioList.new(params[:radio_list])
+    @radio_list = RadioList.new(radio_params[:radio_list])
 
     respond_to do |format|
       if @radio_list.save
@@ -77,10 +77,10 @@ class RadioListsController < ApplicationController
   # PUT /radio_lists/1
   # PUT /radio_lists/1.json
   def update
-    @radio_list = RadioList.find(params[:id])
+    @radio_list = RadioList.find(radio_params[:id])
 
     respond_to do |format|
-      if @radio_list.update_attributes(params[:radio_list])
+      if @radio_list.update_attributes(radio_params[:radio_list])
         format.html do
           redirect_to @radio_list,
                       notice: 'Radio list was successfully updated.'
@@ -99,7 +99,7 @@ class RadioListsController < ApplicationController
   # DELETE /radio_lists/1
   # DELETE /radio_lists/1.json
   def destroy
-    @radio_list = RadioList.find(params[:id])
+    @radio_list = RadioList.find(radio_params[:id])
     @radio_list.destroy
 
     respond_to do |format|
@@ -126,10 +126,10 @@ class RadioListsController < ApplicationController
   end
 
   def play_stream
-    return unless params[:id]
+    return unless radio_params[:id]
     # old stream must be stopped first
-    if session[:current_stream_id] == params[:id].to_i
-      @radio = RadioList.find(params[:id])
+    if session[:current_stream_id] == radio_params[:id].to_i
+      @radio = RadioList.find(radio_params[:id])
       if @radio.sleeping?
         @radio.activate_stream
         @mpd.play
@@ -141,7 +141,7 @@ class RadioListsController < ApplicationController
       end
       @mpd.stop
       @mpd.clear
-      @radio = RadioList.find(params[:id])
+      @radio = RadioList.find(radio_params[:id])
       session['current_stream_id'] = @radio.id
       @radio.activate_stream
       @mpd.add(@radio.radio_url)
@@ -152,7 +152,7 @@ class RadioListsController < ApplicationController
   end
 
   def stop_stream
-    return unless params[:id]
+    return unless radio_params[:id]
     @radio = RadioList.find(params[:id])
     @radio.stop_stream
     @mpd.stop
@@ -180,9 +180,9 @@ class RadioListsController < ApplicationController
   def volume_change
     @volume = @mpd.volume
 
-    if params
-      if params[:volValue]
-        @volume += params[:volValue].to_i
+    if radio_params
+      if radio_params[:volValue]
+        @volume += radio_params[:volValue].to_i
         @mpd.volume = @volume
       end
     end
@@ -196,5 +196,17 @@ class RadioListsController < ApplicationController
         }
       end
     end
+  end
+
+  private
+
+  def radio_params
+    params.require(:radio_list).permit(
+      :name,
+      :description,
+      :radio_url,
+      :aasm_state
+    )
+    params.permit(:volValue, :id)
   end
 end

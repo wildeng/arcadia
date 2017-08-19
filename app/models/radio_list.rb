@@ -4,8 +4,6 @@
 class RadioList < ActiveRecord::Base
   include AASM
 
-  attr_accessible :name, :description, :radio_url, :aasm_state
-
   # state machine
   aasm do
     state :stopped, initial: true
