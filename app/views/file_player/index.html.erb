@@ -1,0 +1,18 @@
+ <div class="span12">
+ <h1>
+   <%= t('title_files') %>
+ </h1>
+ <% if flash[:error] %>
+ 	<br />
+    <div class="alert alert-error">
+	    <a href="#" class="close" data-dismiss="alert">&times;</a>
+		<%= flash[:error] %>
+	</div>
+  <% end %>
+  
+  <form action="/play_files" method="POST">
+  	<input type="file" id="files_list" name="files_list" />
+  	<input type="submit" value="<%= t('play_files')%>" />
+  </form>
+ 
+</div>

@@ -3,6 +3,7 @@
 
 en:
   title:           "Radio List"
+  title_files:     "Play your music"
   radio_name:      "Name"
   radio_type:      "Desc"
   radio_full_type: "Description"
@@ -11,3 +12,5 @@ en:
   edit_radio:      "Edit "
   new_radio:       "Complete all fields"
   clear_all:       "Reset all channel states"
+  play_files:      "Listen"
+  

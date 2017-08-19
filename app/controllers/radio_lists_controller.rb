@@ -1,8 +1,9 @@
+# Controller that manages all the radio stream
+# @author Alain Mauri
+# @version 0.1
 class RadioListsController < ApplicationController
-  # GET /radio_lists
-  # GET /radio_lists.json
- before_filter :start_connection
- after_filter  :stop_connection
+  before_filter :start_connection
+  after_filter  :stop_connection
 
   def index
     @radio_lists = RadioList.all
@@ -36,7 +37,6 @@ class RadioListsController < ApplicationController
   def new
     @radio_list = RadioList.new
 
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @radio_list }
@@ -55,11 +55,21 @@ class RadioListsController < ApplicationController
 
     respond_to do |format|
       if @radio_list.save
-        format.html { redirect_to @radio_list, notice: 'Radio list was successfully created.' }
-        format.json { render json: @radio_list, status: :created, location: @radio_list }
+        format.html do
+          redirect_to @radio_list,
+                      notice: 'Radio list was successfully created.'
+        end
+        format.json do
+          render json: @radio_list,
+                 status: :created,
+                 location: @radio_list
+        end
       else
-        format.html { render action: "new" }
-        format.json { render json: @radio_list.errors, status: :unprocessable_entity }
+        format.html { render action: 'new' }
+        format.json do
+          render json: @radio_list.errors,
+                 status: :unprocessable_entity
+        end
       end
     end
   end
@@ -71,11 +81,17 @@ class RadioListsController < ApplicationController
 
     respond_to do |format|
       if @radio_list.update_attributes(params[:radio_list])
-        format.html { redirect_to @radio_list, notice: 'Radio list was successfully updated.' }
+        format.html do
+          redirect_to @radio_list,
+                      notice: 'Radio list was successfully updated.'
+        end
         format.json { head :no_content }
       else
-        format.html { render action: "edit" }
-        format.json { render json: @radio_list.errors, status: :unprocessable_entity }
+        format.html { render action: 'edit' }
+        format.json do
+          render json: @radio_list.errors,
+                 status: :unprocessable_entity
+        end
       end
     end
   end
@@ -102,46 +118,49 @@ class RadioListsController < ApplicationController
       r.clear_stream
     end
     respond_to do |format|
-      format.html  { redirect_to radio_lists_path, notice: I18n.t('clear_message') }
+      format.html do
+        redirect_to radio_lists_path,
+                    notice: I18n.t('clear_message')
+      end
     end
   end
 
   def play_stream
-    if params[:id]
-      #old stream must be stopped first
-      if session[:current_stream_id] == params[:id].to_i
-        @radio = RadioList.find(params[:id])
-        if @radio.sleeping?
-          @radio.activate_stream
-          @mpd.play
-        end
-      else
-        if session[:current_stream_id]
-          old_radio = RadioList.find(session[:current_stream_id])
-          old_radio.clear_stream
-        end
-        @mpd.stop
-        @mpd.clear
-        @radio = RadioList.find(params[:id])
-        session['current_stream_id'] = @radio.id
+    return unless params[:id]
+    # old stream must be stopped first
+    if session[:current_stream_id] == params[:id].to_i
+      @radio = RadioList.find(params[:id])
+      if @radio.sleeping?
         @radio.activate_stream
-        @mpd.add(@radio.radio_url)
         @mpd.play
       end
-      @volume = @mpd.volume
-      @message = 'Playing ' + @radio.name
+    else
+      if session[:current_stream_id]
+        old_radio = RadioList.find(session[:current_stream_id])
+        old_radio.clear_stream
+      end
+      @mpd.stop
+      @mpd.clear
+      @radio = RadioList.find(params[:id])
+      session['current_stream_id'] = @radio.id
+      @radio.activate_stream
+      @mpd.add(@radio.radio_url)
+      @mpd.play
     end
+    @volume = @mpd.volume
+    @message = 'Playing ' + @radio.name
   end
 
   def stop_stream
-    if params[:id]
-      @radio = RadioList.find(params[:id])
-      @radio.stop_stream
-      @mpd.stop
-      @mpd.disconnect
-      @message = 'Stopped  ' + @radio.name
-      respond_to do |format|
-        format.json { render json: {'success' => true, 'message' => @message.to_s }  }
+    return unless params[:id]
+    @radio = RadioList.find(params[:id])
+    @radio.stop_stream
+    @mpd.stop
+    @mpd.disconnect
+    @message = 'Stopped  ' + @radio.name
+    respond_to do |format|
+      format.json do
+        render json: { 'success' => true, 'message' => @message.to_s }
       end
     end
   end
@@ -163,14 +182,19 @@ class RadioListsController < ApplicationController
 
     if params
       if params[:volValue]
-        @volume = @volume +  params[:volValue].to_i
+        @volume += params[:volValue].to_i
         @mpd.volume = @volume
       end
     end
-    @message = "Volume changed"
+    @message = 'Volume changed'
     respond_to do |format|
-      format.json  { render json: {'success' => true, 'message' => @message.to_s, 'volume' => I18n.t('volume_title',:vol_val => @volume.to_s) }  }
+      format.json do
+        render json: {
+          'success' => true,
+          'message' => @message.to_s,
+          'volume' => I18n.t('volume_title', vol_val: @volume.to_s)
+        }
+      end
     end
   end
-
 end

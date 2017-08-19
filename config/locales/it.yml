@@ -1,5 +1,6 @@
 it:
    title:		    "Lista delle radio"
+   title_files:     "Suona la tua musica"
    radio_name:      "Nome"
    radio_type:      "Desc"
    radio_full_type: "Descrizione"
@@ -17,3 +18,4 @@ it:
    clear_all:       "Reset dello stato dei canali"
    clear_message:   "Lo stato dei canali è stato resettato"
    server_timeout:  "Il server al momento non risponde, riprovare più tardi"
+   play_files:      "Ascolta"
