@@ -14,4 +14,11 @@ Arcadia::Application.routes.draw do
   resources :file_player
 
   root to: 'welcome#home'
+
+  # api
+  namespace :api do
+    namespace :v1 do
+      resources :radio_lists, only: %i[index create destroy update show new]
+    end
+  end
 end

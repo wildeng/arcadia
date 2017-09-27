@@ -12,6 +12,7 @@ gem "bootstrap-datepicker-rails"
 gem 'formtastic-bootstrap'
 gem "ransack"
 gem "ruby-mpd"
+gem 'react-rails'
 # state machine
 gem 'aasm'
 

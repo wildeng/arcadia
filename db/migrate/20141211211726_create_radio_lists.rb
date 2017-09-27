@@ -1,3 +1,4 @@
+# creating radio list table
 class CreateRadioLists < ActiveRecord::Migration
   def change
     create_table :radio_lists do |t|
