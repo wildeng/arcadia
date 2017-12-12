@@ -1,4 +1,6 @@
-== WIP migrating to Rails4, Unit tests are missing, stil rubocopping files
+== WIP migrating to Rails4, Unit tests are missing, still rubocopping files
+== There are bugs that need to be fixed
+== Some code need to be refactored
 == Welcome to ARCADIA
 
 Arcadia is a web application aiming to create a music player for RaspberryPi, controlled by a web interface. Actually is an alpha version; I'm adding some style and I've decided to use 
