@@ -24,7 +24,7 @@ class RadioListsController < ApplicationController
   # GET /radio_lists/1
   # GET /radio_lists/1.json
   def show
-    @radio_list = RadioList.find(radio_params[:id])
+    @radio_list = RadioList.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -45,13 +45,13 @@ class RadioListsController < ApplicationController
 
   # GET /radio_lists/1/edit
   def edit
-    @radio_list = RadioList.find(radio_params[:id])
+    @radio_list = RadioList.find(params[:id])
   end
 
   # POST /radio_lists
   # POST /radio_lists.json
   def create
-    @radio_list = RadioList.new(radio_params[:radio_list])
+    @radio_list = RadioList.new(radio_params)
 
     respond_to do |format|
       if @radio_list.save
@@ -126,10 +126,10 @@ class RadioListsController < ApplicationController
   end
 
   def play_stream
-    return unless radio_params[:id]
+    return unless params[:id]
     # old stream must be stopped first
-    if session[:current_stream_id] == radio_params[:id].to_i
-      @radio = RadioList.find(radio_params[:id])
+    if session[:current_stream_id] == params[:id].to_i
+      @radio = RadioList.find(params[:id])
       if @radio.sleeping?
         @radio.activate_stream
         @mpd.play
@@ -141,10 +141,10 @@ class RadioListsController < ApplicationController
       end
       @mpd.stop
       @mpd.clear
-      @radio = RadioList.find(radio_params[:id])
+      @radio = RadioList.find(params[:id])
       session['current_stream_id'] = @radio.id
       @radio.activate_stream
-      @mpd.add(@radio.radio_url)
+      @mpd.add(@radio.radio_url) 
       @mpd.play
     end
     @volume = @mpd.volume
@@ -152,7 +152,7 @@ class RadioListsController < ApplicationController
   end
 
   def stop_stream
-    return unless radio_params[:id]
+    return unless params[:id]
     @radio = RadioList.find(params[:id])
     @radio.stop_stream
     @mpd.stop
@@ -172,17 +172,20 @@ class RadioListsController < ApplicationController
     end
     @mpd.play
     @mpd.disconnect
+    @message = 'Playing ' + @radio.name
     respond_to do |format|
-      format.json
+      format.json do
+        render json: { success: true, message: @message }
+      end
     end
   end
 
   def volume_change
     @volume = @mpd.volume
 
-    if radio_params
-      if radio_params[:volValue]
-        @volume += radio_params[:volValue].to_i
+    if volume_params
+      if volume_params[:volValue]
+        @volume += volume_params[:volValue].to_i
         @mpd.volume = @volume
       end
     end
@@ -207,6 +210,9 @@ class RadioListsController < ApplicationController
       :radio_url,
       :aasm_state
     )
+  end
+
+  def volume_params
     params.permit(:volValue, :id)
   end
 end

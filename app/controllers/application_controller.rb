@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   def start_connection
     @mpd = MPD.new APP_CONFIG['remote_server'], APP_CONFIG['remote_port']
     @mpd.connect
-  rescue Errno::ETIMEDOUT
+  rescue StandardError
     logger.error('Server timeout')
     flash[:error] = I18n.t('server_timeout')
   end

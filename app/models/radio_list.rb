@@ -30,10 +30,10 @@ class RadioList < ActiveRecord::Base
     end
   end
 
-  RadioList.scope :find_active_radio, conditions: [
-    'aasm_state = "active" OR aasm_state = "sleeping"'
-  ]
-  RadioList.scope :ordered_by_name, order: 'name asc'
+  RadioList.scope :find_active_radio, -> {
+    where('aasm_state = "active" OR aasm_state = "sleeping"')
+  }
+  RadioList.scope :ordered_by_name, -> { order('name asc')}
 
   def check_link
     true

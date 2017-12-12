@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.4'
+gem 'rails', '4.2.9'
 gem 'thin'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,8 +39,6 @@ group :test do
   gem 'database_cleaner'
   gem 'spork', '~> 0.9.0.rc'
   gem 'launchy'
-  gem 'selenium'
-  gem 'selenium-client'
   gem 'nokogiri' # used to parse HTML output form QUnit tests
 end
 
