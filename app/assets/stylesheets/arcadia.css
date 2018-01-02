@@ -1,38 +1,43 @@
 .header_play_purple{
-    background-color: #583C83;
-    color: #ffffff;
+  background-color: #583C83;
+  color: #ffffff;
 }
 
 .header_play_blue{
-    background-color: #05397E;
-    color: #ffffff;
+  background-color: #05397E;
+  color: #ffffff;
 }
 
 .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    background-color: #05397E;
-    color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #05397E;
+  color: #ffffff;
 }
 
 .fluid_image{
-    height: auto;
+  height: auto;
 }
 
 .header_image {
-	max-width: 60%;
+  max-width: 60%;
 }
 
 .main_image{
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.radio_list{
+  max-width: 100%;
+  height: auto;
 }
 
 .center-block {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
- }
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

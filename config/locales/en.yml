@@ -13,4 +13,6 @@ en:
   new_radio:       "Complete all fields"
   clear_all:       "Reset all channel states"
   play_files:      "Listen"
-  
+  confirmation:    "Are you sure?"
+  add_radio:       "Add a new stream"
+  free_entry:      "Access Arcadia"

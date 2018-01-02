@@ -19,3 +19,6 @@ it:
    clear_message:   "Lo stato dei canali è stato resettato"
    server_timeout:  "Il server al momento non risponde, riprovare più tardi"
    play_files:      "Ascolta"
+   confirmation:    "Sei sicuro?"
+   add_radio:       "Aggiungi un nuovo stream"
+   free_entry:      "Entra"

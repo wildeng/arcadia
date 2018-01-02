@@ -28,9 +28,27 @@
     <td><div><%= radio_list.name.to_s%></div></td>
     <!--<td><%= radio_list.description.to_s%></td>-->
     <!--<td><%= radio_list.radio_url.to_s%></td>-->
-    <td><%= link_to image_tag("play_button.png", :class => 'fluid_image', :border=>0,:alt => 'Play', :title => I18n.t('play_title')), '/radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
-    <td><%= link_to image_tag("file_edit.png", :class => 'fluid_image', :border=>0,:alt => 'Edit', :title => I18n.t('edit_title')), edit_radio_list_path(radio_list) %></td>
-    <td><%= link_to image_tag("cross.png", :class => 'fluid_image', :border=>0,:alt => 'Destroy', :title => I18n.t('delete_title')), radio_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to image_tag(
+      "play_button.png",
+      class: 'fluid_image radio_list',
+      border: 0,
+      alt: I18n.t('play_title'),
+      title: I18n.t('play_title')
+    ), '/radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
+    <td><%= link_to image_tag(
+      "file_edit.png",
+      class: 'fluid_image radio_list',
+      border: 0,
+      alt: I18n.t('edit_title'),
+      title: I18n.t('edit_title')
+    ), edit_radio_list_path(radio_list) %></td>
+    <td><%= link_to image_tag(
+      "cross.png",
+      class: 'fluid_image radio_list',
+      border: 0,
+      alt: I18n.t('delete_title'),
+      title: I18n.t('delete_title')
+    ), radio_list, method: :delete, data: { confirm: I18n.t('confirmation') } %></td>
   </tr>
 <% end %>
   </tbody>
@@ -38,10 +56,28 @@
 </div>
 <br />
 <div id="commands">
-  <small><%= link_to image_tag("file_add.png", :class => 'header_image', :border=>0,:alt => 'New'), new_radio_list_path %></small>
-  <small><%= link_to image_tag("cross.png", :class => 'header_image', :border=>0,:alt => 'Clear all', :title => I18n.t('clear_all')), '/radio_lists/reset_all', data: { confirm: 'Are you sure?' } %> </small>
+  <small><%= link_to image_tag(
+    "file_add.png",
+    class: 'fluid_image radio_list',
+    border: 0,
+    alt: I18n.t('add_radio'),
+    title: I18n.t('add_radio')
+  ), new_radio_list_path %></small>
+  <small><%= link_to image_tag(
+    "cross.png",
+    class: ' fluid_image radio_list',
+    border: 0,
+    alt: I18n.t('clear_all'),
+    title: I18n.t('clear_all')
+  ), '/radio_lists/reset_all', data: { confirm: I18n.t('confirmation') } %> </small>
   <%if session[:current_stream_id]%>
-    <small>  <%= link_to image_tag("play_button.png", :class => 'fluid_image', :border=>0,:alt => 'Play', :title => I18n.t('play_sleeping')), '/radio_lists/play_stream/'+ session[:current_stream_id].to_s %></small>
+    <small>  <%= link_to image_tag(
+      "play_button.png",
+      class: 'fluid_image radio_list',
+      border: 0,
+      alt: I18n.t('play_sleeping'),
+      title: I18n.t('play_sleeping')
+    ), '/radio_lists/play_stream/'+ session[:current_stream_id].to_s %></small>
   <%end%>
 </div>
 </div>
