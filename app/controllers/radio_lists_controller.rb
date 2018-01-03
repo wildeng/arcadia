@@ -77,10 +77,10 @@ class RadioListsController < ApplicationController
   # PUT /radio_lists/1
   # PUT /radio_lists/1.json
   def update
-    @radio_list = RadioList.find(radio_params[:id])
+    @radio_list = RadioList.find(params[:id])
 
     respond_to do |format|
-      if @radio_list.update_attributes(radio_params[:radio_list])
+      if @radio_list.update(radio_params)
         format.html do
           redirect_to @radio_list,
                       notice: 'Radio list was successfully updated.'
@@ -99,7 +99,7 @@ class RadioListsController < ApplicationController
   # DELETE /radio_lists/1
   # DELETE /radio_lists/1.json
   def destroy
-    @radio_list = RadioList.find(radio_params[:id])
+    @radio_list = RadioList.find(params[:id])
     @radio_list.destroy
 
     respond_to do |format|
@@ -144,7 +144,7 @@ class RadioListsController < ApplicationController
       @radio = RadioList.find(params[:id])
       session['current_stream_id'] = @radio.id
       @radio.activate_stream
-      @mpd.add(@radio.radio_url) 
+      @mpd.add(@radio.radio_url)
       @mpd.play
     end
     @volume = @mpd.volume

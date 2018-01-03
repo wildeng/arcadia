@@ -7,11 +7,11 @@ gem 'thin'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'devise'
-gem "twitter-bootstrap-rails"
-gem "bootstrap-datepicker-rails"
+gem 'twitter-bootstrap-rails'
+gem 'bootstrap-datepicker-rails'
 gem 'formtastic-bootstrap'
-gem "ransack"
-gem "ruby-mpd"
+gem 'ransack'
+gem 'ruby-mpd'
 # state machine
 gem 'aasm'
 
@@ -30,6 +30,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :development do
+  gem 'pry-byebug'
+end
 
 group :test do
   gem 'rspec'
