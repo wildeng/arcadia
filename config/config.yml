@@ -1,12 +1,12 @@
 # config file
 development:
-  remote_server: '192.168.0.12'
+  remote_server: '192.168.1.110'
   remote_port: 6600
 
 test:
-  remote_server: '192.168.0.2'
+  remote_server: '192.168.1.110'
   remote_port: 6600
 
 production:
-  remote_server: '192.168.0.2'
+  remote_server: '192.168.1.110'
   remote_port: 6600
