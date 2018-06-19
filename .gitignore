@@ -40,3 +40,8 @@ tmp/
 .Trashes
 ehthumbs.db
 Thumbs.db
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity

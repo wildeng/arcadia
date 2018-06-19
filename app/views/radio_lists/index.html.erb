@@ -1,4 +1,6 @@
-<div class="span12">
+<% content_for :head do -%>
+  <%= javascript_pack_tag 'radio_lists' %>
+<% end -%><div class="span12">
 <h1>
   <%= t('title') %>
 </h1>
@@ -10,49 +12,50 @@
 		<%= flash[:error] %>
 	</div>
   <% end %>
-<div class="table-responsive">
-<table class="table">
-  <thead>
-  <tr>
-    <th><%= t('radio_name') %></th>
-    <!--<th><%= t('radio_type') %></th>-->
-    <!--<th><%= t('radio_url') %></th>-->
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  </thead>
-  <tbody>
-<% @radio_lists.each do |radio_list| %>
-  <tr>
-    <td><div><%= radio_list.name.to_s%></div></td>
-    <!--<td><%= radio_list.description.to_s%></td>-->
-    <!--<td><%= radio_list.radio_url.to_s%></td>-->
-    <td><%= link_to image_tag(
-      "play_button.png",
-      class: 'fluid_image radio_list',
-      border: 0,
-      alt: I18n.t('play_title'),
-      title: I18n.t('play_title')
-    ), '/radio_lists/play_stream/'+ radio_list.id.to_i.to_s %></td>
-    <td><%= link_to image_tag(
-      "file_edit.png",
-      class: 'fluid_image radio_list',
-      border: 0,
-      alt: I18n.t('edit_title'),
-      title: I18n.t('edit_title')
-    ), edit_radio_list_path(radio_list) %></td>
-    <td><%= link_to image_tag(
-      "cross.png",
-      class: 'fluid_image radio_list',
-      border: 0,
-      alt: I18n.t('delete_title'),
-      title: I18n.t('delete_title')
-    ), radio_list, method: :delete, data: { confirm: I18n.t('confirmation') } %></td>
-  </tr>
-<% end %>
-  </tbody>
-</table>
+<div class="table-responsive" id="radio_lists">
+  <table class="table">
+    <thead>
+    <tr>
+      <th><%= t('radio_name') %></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr v-for="radio in radio_lists">
+        <td>{{ radio.name }}</td>
+        <td>
+          <div v-on:click="play(radio.id)">
+            <img alt="play radio" src="/assets/play_button.png" class="fluid_image radio_list">
+          </div>
+          <div>
+            <h3 id="volumeVal">
+              <%= I18n.t('volume_title', :vol_val => @volume.to_s)%>
+            </h3>
+            <input type="button" value="+" v-on:click="volumeUp(10);" />
+            <input type="button" value="-" v-on:click="volumeUp(-10);" />
+          </div>
+        </td>
+        <td>
+          <div v-on:click="stop(radio.id)">
+            <img alt="stop radio" src="/assets/file_stop.png" class="fluid_image radio_list">
+          </div>
+        </td>
+        <td>
+          <!-- <div v-on:click="edit(radio.id)">
+            <img alt="edit radio" src="/assets/file_edit.png" class="fluid_image radio_list">
+          </div> -->
+        </td>
+        <td>
+          <!-- <div v-on:click="delete(radio.id)">
+            <img alt="delete radio" src="/assets/cross.png" class="fluid_image radio_list">
+          </div> -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 <br />
 <div id="commands">

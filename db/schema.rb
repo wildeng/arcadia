@@ -14,12 +14,12 @@
 ActiveRecord::Schema.define(version: 20141226212658) do
 
   create_table "radio_lists", force: :cascade do |t|
-    t.string   "name"
+    t.string   "name",        limit: 255
     t.text     "description"
-    t.string   "radio_url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "aasm_state",  default: "stopped"
+    t.string   "radio_url",   limit: 255
+    t.datetime "created_at",                                  null: false
+    t.datetime "updated_at",                                  null: false
+    t.string   "aasm_state",  limit: 255, default: "stopped"
   end
 
 end

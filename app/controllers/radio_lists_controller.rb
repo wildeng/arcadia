@@ -149,6 +149,7 @@ class RadioListsController < ApplicationController
     end
     @volume = @mpd.volume
     @message = 'Playing ' + @radio.name
+    render json: { 'success' => true, 'message' => @message.to_s }
   end
 
   def stop_stream

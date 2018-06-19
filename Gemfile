@@ -15,6 +15,9 @@ gem 'ruby-mpd'
 # state machine
 gem 'aasm'
 
+# webpacker
+gem 'webpacker'
+
 
 
 gem 'sqlite3'
