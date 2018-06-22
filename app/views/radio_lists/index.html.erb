@@ -30,13 +30,7 @@
           <div v-on:click="play(radio.id)">
             <img alt="play radio" src="/assets/play_button.png" class="fluid_image radio_list">
           </div>
-          <div>
-            <h3 id="volumeVal">
-              <%= I18n.t('volume_title', :vol_val => @volume.to_s)%>
-            </h3>
-            <input type="button" value="+" v-on:click="volumeUp(10);" />
-            <input type="button" value="-" v-on:click="volumeUp(-10);" />
-          </div>
+          <buttons v-bind:showit="showit"></buttons>
         </td>
         <td>
           <div v-on:click="stop(radio.id)">

@@ -1,12 +1,22 @@
 import TurbolinksAdapter from 'vue-turbolinks';
 import Vue from 'vue/dist/vue.esm'
-import App from '../app.vue'
+import Buttons from './components/buttons'
 
 document.addEventListener('DOMContentLoaded', () => {
   var radio_lists = new Vue({
     el: '#radio_lists',
-    data: {
-      radio_lists: []
+    props: {
+      'radio_lists': {
+        default: []
+      }
+    },
+    data: function() {
+      return {
+        showit: false
+      }
+    },
+    components: {
+      Buttons
     },
     methods: {
       play: function(id){
@@ -17,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
           contentType: 'application/json',
           type: 'get',
           success: function(response) {
-            console.log('stream Playing')
+            that.showit = true;
           }
         });
       },
@@ -29,21 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
           contentType: 'application/json',
           type: 'get',
           success: function(response) {
-            console.log('stop Playing')
+            that.showit = false;
           }
         });
       },
-      volumeUp: function volumeUp(volValue){
-        $.ajax({
-            type: "post",
-            dataType: "json",
-            url: "/radio_lists/volume_change",
-            data: {volValue:volValue},
-            success: function(data){
-                $('#volumeVal').html(data.volume);
-            }
-        });
-      }
     },
     mounted: function() {
      var that;
